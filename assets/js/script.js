@@ -1,7 +1,7 @@
 var data = [
 
 //CME
-{"title":"cme","Link: ./cheats/Active_directory/cme.md"},
+{"title":"cme","link:./cheats/Active_directory/cme.md"}
 
 ]
 
@@ -25,7 +25,7 @@ $('#txt-search').keyup(function() {
     $.each(data, function(key, val) {
         if ((val.title.search(regex) != -1) || (val.link.search(regex) != -1)) {
             output += `<div class="row antialiased p-2">
-          <a target="_blank" rel="noopener nofollow noreferrer"> ✍️ ${val.link}</a>
+          <a href=${val.link} target="_blank" rel="noopener nofollow noreferrer"> ✍️ ${val.title}</a>
                       </div>`
             cresult.push({
                 title: `${val.title}`,
