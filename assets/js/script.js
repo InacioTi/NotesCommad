@@ -1,6 +1,8 @@
 var data = [
 
 //CME
+{"title":"cme","Link: ./cheats/Active_directory/cme.md"},
+
 {"title":"cme - enumerate password policy : cme smb &lt;ip&gt; -u &lt;user&gt; -p &lt;password&gt; --pass-pol"},
 {"title":"cme - enumerate null session : cme smb &lt;ip&gt; -u -p "},
 {"title":"cme - enumerate anonymous login : cme smb &lt;ip&gt; -u &lt;a&gt; -p "},
@@ -181,7 +183,7 @@ $('#txt-search').keyup(function() {
     $.each(data, function(key, val) {
         if ((val.title.search(regex) != -1) || (val.link.search(regex) != -1)) {
             output += `<div class="row antialiased p-2">
-          <a target="_blank" rel="noopener nofollow noreferrer"> ✍️ ${val.title}</a>
+          <a target="_blank" rel="noopener nofollow noreferrer"> ✍️ ${val.link}</a>
                       </div>`
             cresult.push({
                 title: `${val.title}`,
