@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>ArsenalWEB</title>
+  
+   <!-- CSS-->  
+   <link rel="stylesheet" type="text/css" href="style.css"/>
+
+   <!-- partial -->
+   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+   <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/3.0.5/vue.cjs.js'></script>
+   <script src='https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js'></script>
+   <script src='script.js'></script>
+
+
+   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css'>
+   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/tabler-icons/1.35.0/iconfont/tabler-icons.min.css'><link href='https://d33wubrfki0l68.cloudfront.net/css/3296e48ba8cbe92a3d837ee254c79932f7f8a0fe/style.css' rel='stylesheet'/>
+   <link rel="icon" href="./favicon.ico" />
+   <link rel="manifest" href="./static/site.webmanifest">
+   <meta name="description" content="BugBountyHunting.com collects writeups, resources and content related to bug bounty hunting to help you access them quickly. 
+  It's goal is to help beginners starting in web application security to learn more about bug bounty hunting.">
+   <meta name="robots" content="index, follow" />
+   <link rel="canonical" href="https://bugbountyhunting.com" />
+   
+
+</head>
+
+<body>
+<!-- partial:index.partial.html -->
+<h1 class="subpixel-antilaliased font-mono text-4xl p-4 text-center mt-8"> 🐛 Basic Pentest Inventory for remember commands  </h1>
+<section class="h-50 p-8">
+<div class="flex align-center justify-center">
+<!--
+   <div class="flex-initial">
+      <button value="xss" class="searchfilter font-mono uppercase px-8 py-2 border border-blue-600 text-blue-600 max-w-max shadow-sm hover:shadow-lg">XSS</button>
+   </div>
+   <div class="flex-initial mx-2">
+      <button value="ssrf" class="searchfilter font-mono uppercase px-8 py-2 border border-yellow-600 text-yellow-600 max-w-max shadow-sm hover:shadow-lg">ssrf</button>
+   </div>
+   <div class="flex-initial mr-2">
+      <button value="sql" class="searchfilter uppercase px-8 py-2 border border-gray-600 text-gray-600 max-w-max shadow-sm hover:shadow-lg">SQLi</button>
+   </div>
+   <div class="flex-initial mr-2">
+      <button value="rce" class="searchfilter uppercase px-8 py-2 border border-green-600 text-green-600 max-w-max shadow-sm hover:shadow-lg">RCE</button>
+   </div>
+   <div class="flex-initial mr-2">
+      <button value="idor" class="searchfilter uppercase px-8 py-2 border border-red-600 text-red-600 max-w-max shadow-sm hover:shadow-lg">IDOR</button>
+   </div>
+   <div class="flex-initial mr-2">
+      <button value="injection" class="searchfilter uppercase px-8 py-2 border border-purple-700 text-purple-700 max-w-max shadow-sm hover:shadow-lg">Injections</button>
+   </div>
+-->
+</div>
+  
+<div class="container mx-auto py-8">
+     <div class="text-xs text-center antialiased mt-2 mb-2 p-2"> Example search: <code><a href="?q=xss">https://inacioti.github.io/Arsernal/?q=keyword</a></code></div>
+   <form role="form">
+      <div class="form-group">
+         <input class="form-control w-full h-16 px-3 rounded mb-8 focus:outline-none focus:shadow-outline text-xl px-8 shadow-lg font-mono" type="search" id="txt-search"  placeholder="🔍 Search for commads, payloads, tips, and more...">
+      </div>
+   </form>
+  
+   <div class="mr-12 lg:px-72 xl:px-72 text-lg grid divide-y divide-gray-500" id="filter-records"></div>
+  
+
+</div>
+
+<div>
+</div>
+</div>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7JK94QJPZH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7JK94QJPZH');
+</script><script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/5e50a99bd5366c17c9fb26954/fc7c5fd7d30a7983d329ce6a7.js");</script>
+
+<div class="text-sm text-center antialiased mt-2"> Made with  ❤️ by <a href='https://twitter.com/payloadartist'>@payloadartist</a></div>
+
+</body>
+
+</html>
