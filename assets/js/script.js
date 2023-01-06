@@ -1,14 +1,5 @@
-<<<<<<< HEAD
 var data = [{"title":"cme","link":"/cheats/Active_directory/cme.md"}]
-=======
-var data = [
 
-//CME
-{"title":"cme","link:/cheats/Active_directory/cme.md"}
-
-]
-
->>>>>>> 401df3c5511c3179fc71e460a9d58791b8ac3c40
 
 //O trecho de código acima corresponde a uma função que é executada quando o usuário digita algo no campo de busca. A função começa por definir duas variáveis, count e t0 e t1, para armazenar os resultados da pesquisa. A variável count é usada para contar o número de resultados encontrados. As variáveis t0 e t1 são usadas para medir o tempo de processamento da pesquisa. Em seguida, é criado um regex para procurar o termo de pesquisa nos dados. Depois disso, é percorrido cada item de dados e procurado os termos de pesquisa. Se achado, o item é adicionado ao array de resultados. Por fim, o resultado é mostrado na tela junto com o número de itens encontrados e o tempo de processamento da pesquisa.
 
