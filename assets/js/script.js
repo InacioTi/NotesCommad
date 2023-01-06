@@ -1,7 +1,7 @@
 var data = [
 
 //CME
-{"title":"cme","link:./cheats/Active_directory/cme.md"}
+{"title":"cme","link:/cheats/Active_directory/cme.md"}
 
 ]
 
