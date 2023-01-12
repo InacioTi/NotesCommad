@@ -170,7 +170,7 @@ $('#txt-search').keyup(function() {
     t0 = performance.now();
     var searchField = $(this).val();
     if (searchField === '') {
-        $('#filter-records').md('');
+        $('#filter-records').html('');
         return;
     }
     
@@ -190,7 +190,7 @@ $('#txt-search').keyup(function() {
     });
     output += `</div>`
 
-    $('#filter-records').md(output);
+    $('#filter-records').html(output);
     t1 = performance.now();
     $("#filter-records").prepend(`<div class="text-bold text-center mb-8">Found <code>${cresult.length}</code> resources related to <b>${removeTags(searchField)}</b> in <code>${t1-t0} ms</code></div>`);
 });
@@ -201,7 +201,7 @@ $('#txt-search').keyup(function() {
 
 $('.searchfilter').click(function() {
     output = search($(this).val());
-    $("#filter-records").md(output)
+    $("#filter-records").html(output)
 })
 
 function search(filter) {
@@ -231,7 +231,7 @@ query = new URLSearchParams(window.location.search);
 param = query.get('q');
 if(param.length>1) {
   output = search(param)
-  $("#filter-records").md(output)
+  $("#filter-records").html(output)
   $("#filter-records").prepend(`<div class="text-bold text-center mb-8">Showing resources related to <b>${removeTags(param)}</b></div>`);
 }
 
